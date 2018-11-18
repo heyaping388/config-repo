@@ -2,10 +2,15 @@ spring:
   application:
     name: order
   datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
-      username: root
-      password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  rabbitmq:
+    host: 192.168.138.134
+    username: guest
+    password: guest
+    virtual-host: springcloud
   jpa:
     show-sql: true
 eureka:
@@ -14,3 +19,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 server:
   port: 8081
+env:
+  dev
+girl:
+  name: lili
+  age: 18
