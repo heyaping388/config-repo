@@ -22,5 +22,5 @@ server:
 env:
   dev
 girl:
-  name: xiaowang
+  name: xiaowang2
   age: 18
