@@ -22,5 +22,5 @@ server:
 env:
   dev
 girl:
-  name: lilili
+  name: xiaowang
   age: 18
